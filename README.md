@@ -14,22 +14,23 @@
 
 ## Установка
 
-- Встановити залежності
+- Склонуйте проект у директорію із сервером:
     ```bash
-  composer install
-- Згенерувати ключ проекту
+  https://github.com/Kowalski1304/test-task-panda-team.git
+- Потім, відкривши з папки проекту консоль, введіть команду для встановлення пакетів Laravel
     ```bash
-  php artisan key:generate
-- Запустити міграцію
+  composer update
+- Створіть базу даних по прикладу .env.example
+- Запустіть міграцію
     ```bash
   php artisan migrate
-- Запустити проект
+- Запустіть проект
     ```bash
   php artisan serve
-- Запустити schedule, для автоматично запуску команд
+- Запустіть schedule, для автоматично запуску команд
     ```bash
   php artisan schedule:work
-- Не забудьте створити .env файл
+- Відкрийте сайт у браузері по адресу http://localhost:8000
 
 ## Вимоги
 
