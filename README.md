@@ -21,6 +21,7 @@
     ```bash
   composer update
 - Створіть базу даних по прикладу .env.example
+
 - Запустіть міграцію
     ```bash
   php artisan migrate
